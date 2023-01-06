@@ -1,0 +1,23 @@
+body{
+    background-color: lightblue;
+}
+
+.container{
+    width: 50%;
+    margin: 20px auto 0px auto;
+
+}
+
+.removed{
+    color: blue;
+}
+
+.removed label{
+    text-decoration: line-through;
+
+}
+
+ul li{
+    list-style-type: none;
+}
+
