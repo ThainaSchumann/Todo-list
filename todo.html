@@ -12,11 +12,17 @@
     <link rel="stylesheet" href="css/style.css">
     <!--JS----->
     <script src="js/script.js"></script>
-    <title>to-do list</title>
+    <title>My to-do list</title>
 </head>
 <body>
     <div class="container">
         <h2>my to-dos list</h2>
+        <div class="input-group">
+            <input type="text" placeholder="add a new task" class="form-control new-task">
+            <span class="input-group-btn">
+                <button class="btn btn-default add-task">Add</button>
+            </span>
+        </div>
         <ul>
             <!--1 checkbox of study----->
             <li>
@@ -48,7 +54,12 @@
         </ul>
 
 
-    </div>
+    <footer>
+        <hr>
+        <em>change the title of your to-do list</em>
+        <input type="text" class="change-title" value="My to-do list">
+    </footer>
+</div>
 
     
 </body>
